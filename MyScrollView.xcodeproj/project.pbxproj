@@ -15,6 +15,7 @@
 		0D0A51CF2289BB7D000AC878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A51CE2289BB7D000AC878 /* main.m */; };
 		0D0A51D92289BB7D000AC878 /* MyScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A51D82289BB7D000AC878 /* MyScrollViewTests.m */; };
 		0D0A51E42289BB7D000AC878 /* MyScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A51E32289BB7D000AC878 /* MyScrollViewUITests.m */; };
+		0D0A51F32289C288000AC878 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A51F22289C288000AC878 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0D0A51DF2289BB7D000AC878 /* MyScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0A51E32289BB7D000AC878 /* MyScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollViewUITests.m; sourceTree = "<group>"; };
 		0D0A51E52289BB7D000AC878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0A51F12289C288000AC878 /* MyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		0D0A51F22289C288000AC878 /* MyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0D0A51C02289BB7C000AC878 /* AppDelegate.m */,
 				0D0A51C22289BB7C000AC878 /* ViewController.h */,
 				0D0A51C32289BB7C000AC878 /* ViewController.m */,
+				0D0A51F12289C288000AC878 /* MyScrollView.h */,
+				0D0A51F22289C288000AC878 /* MyScrollView.m */,
 				0D0A51C52289BB7C000AC878 /* Main.storyboard */,
 				0D0A51C82289BB7D000AC878 /* Assets.xcassets */,
 				0D0A51CA2289BB7D000AC878 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D0A51C42289BB7C000AC878 /* ViewController.m in Sources */,
+				0D0A51F32289C288000AC878 /* MyScrollView.m in Sources */,
 				0D0A51CF2289BB7D000AC878 /* main.m in Sources */,
 				0D0A51C12289BB7C000AC878 /* AppDelegate.m in Sources */,
 			);
@@ -438,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T8CYLBGX24;
 				INFOPLIST_FILE = MyScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T8CYLBGX24;
 				INFOPLIST_FILE = MyScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
